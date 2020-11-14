@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
         search.setText("Kostroma");
 
-        api_key(String.valueOf(search.getText()));
+        //api_key(String.valueOf(search.getText()));
 
         search_floating.setOnClickListener(new View.OnClickListener() {
             @Override
