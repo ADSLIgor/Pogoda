@@ -77,8 +77,8 @@ public class MainActivity extends AppCompatActivity {
     private void api_key(final String City) {
         OkHttpClient client = new OkHttpClient();
         Request request = new Request.Builder()
-                //.url("http://api.openweathermap.org/data/2.5/weather?q="+City+"&appid=6f0d8e23ee91f44f3d8543813a7038c9")
-                .url("http://api.openweathermap.org/data/2.5/weather?q=Kostroma&appid=6f0d8e23ee91f44f3d8543813a7038c9&units=metric")
+                .url("http://api.openweathermap.org/data/2.5/weather?q="+City+"&appid=6f0d8e23ee91f44f3d8543813a7038c9&units=metric")
+                //.url("http://api.openweathermap.org/data/2.5/weather?q=Kostroma&appid=6f0d8e23ee91f44f3d8543813a7038c9&units=metric")
                 .get()
                 .build();
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
